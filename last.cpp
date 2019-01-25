@@ -73,14 +73,14 @@ void add_node(char file_name[]){
 
 void pp(struct moshkel *ppp){
         printf("%s\n", ppp->soorat);
-        printf("%s\n", ppp->tasmim_1);
-        printf("%d\n", ppp->mardom_1);
-        printf("%d\n", ppp->darbar_1);
-        printf("%d\n", ppp->khazane_1);
-        printf("%s\n", ppp->tasmim_2);
-        printf("%d\n", ppp->mardom_2);
-        printf("%d\n", ppp->darbar_2);
-        printf("%d\n", ppp->khazane_2);
+        printf("1-%s\n", ppp->tasmim_1);
+        //printf("%d\n", ppp->mardom_1);
+        //printf("%d\n", ppp->darbar_1);
+        //printf("%d\n", ppp->khazane_1);
+        printf("2-%s\n", ppp->tasmim_2);
+        //printf("%d\n", ppp->mardom_2);
+        //printf("%d\n", ppp->darbar_2);
+        //printf("%d\n", ppp->khazane_2);
 }
 
 int randd(){
