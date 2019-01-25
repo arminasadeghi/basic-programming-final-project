@@ -233,7 +233,6 @@ int play(){
     else if(current->emkan==0)
     {
         test=delete_node(current);
-        printf("tttttttt%d\n",test);
     }
     return 0;
 
