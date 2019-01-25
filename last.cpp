@@ -294,7 +294,7 @@ int main(){
                 res=play();
                 if(res==-1)
                     break;
-                printf("%d\n%d\n%d\n",mardom,darbar,khazane);
+                //printf("%d\n%d\n%d\n",mardom,darbar,khazane);
             }
     }
     else
